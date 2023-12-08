@@ -15,4 +15,4 @@ Licensed under the MIT License
 URL: https://github.com/adebayoadebisi/wire-framing-grid-practice 
 
 ## Deployed Web Application
-URL: https://adebayoadebisi.github.io/01-code-refactor-challenge/ 
+URL: https://adebayoadebisi.github.io/wire-framing-grid-practice/ 
