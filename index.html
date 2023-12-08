@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <Section id="Header">
+        <h1 class="Title">CSS Snippet Cheatsheet</h1>
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it
+            to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </Section>
+
+    <section id="maincontent">
+        <div class="box">
+
+            <div id="flexboxrow" class="boxcontent">
+                <h2 class="boxheader">Flexbox Row</h2>
+                <p class="boxbody">Use these three properties to create a Flexbox row layout</p>
+                <pre class="boxinsert">
+                    <code>
+    .row { 
+        display: flex;
+        flex-direction: row:
+        flex-wrap: wrap;
+    }
+                    </code>
+                </pre>
+            </div>
+
+            <div id="flexboxcolumn" class="boxcontent">
+                <h2 class="boxheader">Flexbox Column</h2>
+                <p class="boxbody">Use this to create a Flexbox column layout</p>
+                <pre class="boxinsert"> <code>
+    .column {
+        display: flex;
+        flex-direction: column
+    }
+                    </code>
+                </pre>
+            </div>
+
+            <div id="cssgridlayout" class="boxcontent">
+                <h2 class="boxheader">CSS Grid Layout</h2>
+                <p class="boxbody">Build a 12-column layout using CSS Grid</p>
+                <pre class="boxinsert"> <code>
+    •grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns:
+        repeat (12, 1fr);
+    }
+                    </code>
+                </pre>
+            </div>
+
+            <div id="lineargradients" class="boxcontent">
+                <h2 class="boxheader">Linear Gradients</h2>
+                <p class="boxbody">This will create a background linear gradient from top to bottom.</p>
+                <pre class="boxinsert"> <code>
+    .linear -gradient -background { 
+        background-image: linear-
+    gradient(
+            rgba (232, 102, 236, 0.3) 0%,
+            rgba (232, 102, 236, 0.6) 100%
+        );
+    }
+                    </code>
+                </pre>
+            </div>
+
+            <div id="boxtransitionglow" class="boxcontent">
+                <h2 class="boxheader">Box Transition Glow</h2>
+                <p class="boxbody">Use transition and box shadows to glow on hover.</p>
+                <pre class="boxinsert"> <code>
+    .code-card .card-header {
+        border-radius: 8px;
+        transition: all 0.5s ease-in-
+    out;
+    }
+    .code-card: hover,
+    .code-card: hover .card-header {
+        box-shadow: inset Opx Opx 8px                       
+    rgba (232, 102, 236, 1), 0 0 15px
+    rgba (232, 102, 236, 1):
+    }
+                    </code>
+                </pre>
+            </div>
+
+            <div id="overlaycard" class="boxcontent">
+                <h2 class="boxheader">Overlay Card with Title</h2>
+                <p class="boxbody">Use position properties and negative margins to raise elements higher than their
+                    natural starting point.</p>
+                <pre class="boxinsert"> <code>
+    .card-header {
+        position: relative;
+        margin-top: -20px;
+    }
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Made with ❤️️ and CSS</p>
+    </footer>
+</body>
+
+</html>
